@@ -12,12 +12,13 @@ public:
         cout<<"DEFAULT CASE\n";
        // cout<<"value of i ="<<i;
     }
-     base(int x){
+     base (int x){
         cout<<" Insert your value of i=\n";
         cin>>x;
         i=x;
     }
-    base( base &a){
+    base( base &a)
+    {
         i=a.i;
        // cout<<"COPY CONSTRUCTOR\n";
     }
@@ -29,7 +30,8 @@ public:
     }
 
 };
-int main(){
+int main()
+{
     base obj1(5),obj2,obj3;
     obj1.display();
     cout<<"-------------------\n";
