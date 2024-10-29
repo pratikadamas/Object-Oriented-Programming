@@ -2,7 +2,7 @@
 // Created by Pratik Giri on 29-10-2024.
 //
 #include<iostream>
-template<typename T1=char, typename T2=int>//LINE-1
+template<typename T1=char, typename T2=char>//LINE-1
 class TempTest{
     T1 a_;
     T2 b_;
