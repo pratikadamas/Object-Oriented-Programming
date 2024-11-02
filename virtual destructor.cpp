@@ -6,7 +6,7 @@ using namespace std;
 class X {
 public:
     X() { cout << "X "; }
-    virtual ~X() { cout << "~X "; }
+    ~X() { cout << "~X "; }
 };
 class Y : public X {
 public:
@@ -16,7 +16,7 @@ public:
 class Z : public Y {
 public:
     Z() { cout << "Z "; }
-    ~Z() { cout << "~Z "; }
+   virtual ~Z() { cout << "~Z "; }
 };
 int main() {
     X *t1 = new Z;
