@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
- //const int pin=123;
 class atm {
     private:
            int password=123;
@@ -83,6 +82,7 @@ class atm {
 
 int main()
 {
+    printf(" ------------------------ATM IMPLEMENT----------   ");
     atm m1;
     m1.pin();
     
