@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-class atm {
+class atm
+        {
     private:
            int password=123;
            float balence=1000.369,withdrawl_ammount;
@@ -17,7 +18,8 @@ class atm {
                
            }
            
-           void check_balence(){
+           void check_balence()
+           {
                cout<<"--your balence---"<<balence<<endl;
                
            }
@@ -30,7 +32,8 @@ class atm {
                cout<<"-------MONEY DEPOSIT PRESS 1------\n  ------MONEY TRANSFER PRESS 2-----\n";
                cin>>i;
                
-               switch(i){
+               switch(i)
+               {
                    
              case 1:  cout<<"ammount of the money--";
                         cin>>x;
@@ -49,7 +52,8 @@ class atm {
                }
            }
     public:
-          void pin(){
+          void pin()
+          {
               int x;
               cout<<"Please Enter your pin\n";
               cin>>x;
