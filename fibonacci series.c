@@ -16,7 +16,6 @@ int fibonacci(int n) {
 int main() {
     int n, i;
 
-
     printf("Enter the number of terms: ");
     scanf("%d", &n);
 
