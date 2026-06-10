@@ -16,6 +16,7 @@ public:
     }
 };
 
+
 int main() {
     Sample obj (5);
     obj.display();
