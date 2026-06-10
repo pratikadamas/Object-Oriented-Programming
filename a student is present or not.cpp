@@ -31,6 +31,7 @@ int main()
         }
 
     }
+    
     //sorting test
     printf("sorted array is >> ");
     for(i=0;i<num;i++)
