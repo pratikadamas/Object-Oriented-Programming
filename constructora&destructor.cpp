@@ -17,6 +17,7 @@ public:
         cin>>x;
         i=x;
     }
+    
     base( base &a)
     {
         i=a.i;
