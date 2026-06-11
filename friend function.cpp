@@ -12,6 +12,7 @@ public:
 void show(Number &n) {
     cout << n.value;
 }
+
 int main() {
     Number n(10);
     show(n);
