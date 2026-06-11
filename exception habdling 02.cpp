@@ -17,4 +17,5 @@ int main(){
     catch(double& e){ std::cout << "double"; }
    // catch(...){ std::cout << "all"; } //LINE-1
     return 0;
+    
 }
