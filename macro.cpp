@@ -7,5 +7,5 @@ int a=9,b;
 b=a;
 cout<<a<<b;
 
-    
+   
 }
