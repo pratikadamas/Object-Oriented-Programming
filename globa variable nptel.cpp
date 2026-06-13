@@ -18,6 +18,7 @@ public:
         cout << "memberVar = " << memberVar << ", globalVar = " << globalVar << endl;
     }
 };
+
 void test() {
     MyClass obj;
     obj.print();
