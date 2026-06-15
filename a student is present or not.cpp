@@ -43,6 +43,7 @@ int main()
     scanf("%d",&target);
 
     //Binary search
+    
     temp=0;
     low=0;
     high=num;
