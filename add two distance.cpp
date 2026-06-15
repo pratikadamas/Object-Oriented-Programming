@@ -3,13 +3,10 @@
 //
 //Wap in c to add two distances given in feet and inches using structure
 #include <stdio.h>
-
-
 struct Distance {
     int feet;
     int inches;
 };
-
 
 struct Distance addDistances(struct Distance d1, struct Distance d2) {
     struct Distance result;
