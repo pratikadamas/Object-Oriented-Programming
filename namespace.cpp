@@ -18,6 +18,7 @@ namespace class2{
         cout<<"-----    -----Hi I am from 2nd class-----    ------\n"<<a;
     }
 };
+
 int main(){
   // cout<<class1::printf()<<"\n";
     //cout<<class2::printf()<<"\n";
@@ -26,4 +27,5 @@ int main(){
     cout<<"\n"<<class1::a<<"\n";
     cout<<"\n"<<class2::a<<"\n";
 return 0;
+
 }
